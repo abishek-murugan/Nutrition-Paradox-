@@ -1,5 +1,103 @@
-.ipynb_checkpoints/Untitled-checkpoint.ipynb
-Pre_Analysis/.ipynb_checkpoints/Pre_Analysis_pynb-checkpoint.ipynb
-Pre_Analysis/.ipynb_checkpoints/Pre_Analysis-checkpoint.ipynb
-Pre_Analysis/.ipynb_checkpoints/Pre_Analysis-checkpoint.pynb
-Nutrition Paradox_ A Global View on Obesity and Malnutrition.docx
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# =====================================================
+# Virtual Environments
+# =====================================================
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# =====================================================
+# Jupyter Notebook
+# =====================================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =====================================================
+# Streamlit
+# =====================================================
+.streamlit/secrets.toml
+
+# =====================================================
+# Environment Variables / Secrets
+# =====================================================
+.env
+.env.*
+*.env
+
+# =====================================================
+# Logs & Temp Files
+# =====================================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =====================================================
+# Database / Local Storage
+# =====================================================
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.tsv
+*.parquet
+
+# =====================================================
+# OS Files
+# =====================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# =====================================================
+# IDE / Editor Settings
+# =====================================================
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================================
+# Build / Cache
+# =====================================================
+build/
+dist/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =====================================================
+# Node / Frontend (just in case)
+# =====================================================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =====================================================
+# Coverage / Reports
+# =====================================================
+htmlcov/
+.coverage
+coverage.xml
+
+# =====================================================
+# Misc
+# =====================================================
+*.zip
+*.tar
+*.gz
