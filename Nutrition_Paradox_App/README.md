@@ -18,51 +18,64 @@ trends, comparisons, and demographic insights in a clean and user-friendly way.
 
 ## App Structure
 
+```
 Nutrition_Paradox_App/
 ├── app.py
 ├── requirements.txt
 ├── .streamlit/
-│ └── config.toml
+│   └── config.toml
 ├── db/
-│ └── connection.py
+│   └── connection.py
 ├── queries/
-│ ├── obesity_queries.py
-│ ├── malnutrition_queries.py
-│ └── combined_queries.py
+│   ├── obesity_queries.py
+│   ├── malnutrition_queries.py
+│   └── combined_queries.py
 ├── pages/
-│ ├── 1_Project_Overview.py
-│ ├── 2_Obesity.py
-│ ├── 3_Malnutrition.py
-│ ├── 4_Combined.py
-│ └── 5_Insights.py
+│   ├── 1_Project_Overview.py
+│   ├── 2_Obesity.py
+│   ├── 3_Malnutrition.py
+│   ├── 4_Combined.py
+│   └── 5_Insights.py
 └── utils/
-└── plotly_config.py
+    └── plotly_config.py
+```
+
 ---
 
 ## How to Run the App
 
-1. Install dependencies:
+### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-Configure database connection:
+### 2. Configure database connection
+Update database credentials in:
+```
+db/connection.py
+```
 
-Update credentials in db/connection.py
-
-Run the app:
-
+### 3. Run the Streamlit app
+```bash
 streamlit run app.py
-
-Data
-
-Source: World Health Organization (WHO)
-
-Time period: 2012–2022
-
-Metrics: Mean Estimate, CI Width, Region, Country, Age Group, Gender
-
+```
 
 ---
 
-Author
-Abishek Murugan
+## Data
+
+- **Source:** World Health Organization (WHO)
+- **Time Period:** 2012 – 2022
+- **Metrics:**
+  - Mean Estimate
+  - Confidence Interval Width (CI Width)
+  - Region
+  - Country
+  - Age Group
+  - Gender
+
+---
+
+## Author
+
+**Abishek Murugan**
